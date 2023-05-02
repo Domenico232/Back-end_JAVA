@@ -1,0 +1,10 @@
+package com.nomeunivoco.test;
+
+public class MainProject {//Class name equal to file name
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("hello world");
+	}
+
+}
