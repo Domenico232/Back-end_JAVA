@@ -16,28 +16,22 @@ public class Main {
 		boolean a = true;
 		
 		while (a) {
-			try {
-				System.out.println("inserisci linea da cambiare (da 1 a 5):");
-				int input = sc.nextInt();
-				if (input == 0) {
-					
-					a = !a;
-					
-				} else {
-					
-					System.out.println("inserisci numero da sostituire:");
-					int input2 = sc.nextInt();
-					array[input-1] = input2;
-					System.out.println("nuova lista:");
-					for (int i = 0; i < array.length; i++) {
-						System.out.println(array[i]);
-					}
+			System.out.println("inserisci linea da cambiare (da 1 a 5):");
+			int input = sc.nextInt();
+			if (input == 0) {
+				
+				a = !a;
+				
+			} else {
+				
+				System.out.println("inserisci numero da sostituire:");
+				int input2 = sc.nextInt();
+				array[input-1] = input2;
+				System.out.println("nuova lista:");
+				for (int i = 0; i < array.length; i++) {
+					System.out.println(array[i]);
 				}
-			} catch (Exception e) {
-				System.out.println("inserisci linea da cambiare (da 1 a 5):");
-				int input = sc.nextInt();
 			}
-			
 		}
 		
 
