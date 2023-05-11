@@ -15,12 +15,13 @@ public class Main {
 		boolean con = true;
 		// "(elemento immagine o video).aumentaLuminosita() / elemento immagine o video .riduciLuminosita()" funzionanti
 		// "(elemento video o audio).aumentaVol() / (elemento video o audio).riduciVol() funzionanti
+		
 		while (con) {
 			for (int i = 0; i < element.length; i++) {
 				System.out.println((i+1) + " " + element[i].title );
 			}
 			
-			System.out.println("scegli numero da 1 a 5: ");
+			System.out.println("scegli numero da 1 a 5 (0 per chiudere l'applicazione): ");
 			int ch = input.nextInt();
 			
 			switch (ch) {
