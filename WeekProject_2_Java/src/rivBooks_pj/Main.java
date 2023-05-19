@@ -61,6 +61,7 @@ public class Main {
 				int g = sc.nextInt();
 				sc.nextLine(); // fix bug nextline();
 				if (g == 1) {
+					
 					System.out.println("inserisci Titolo:");
 					String title = sc.nextLine();
 
