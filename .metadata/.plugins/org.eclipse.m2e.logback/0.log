@@ -940,3 +940,41 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2023-05-18 23:07:12,981 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\QueryLesson\src\main\resources
 2023-05-18 23:07:12,983 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-18 23:07:12,983 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\QueryLesson\src\test\resources
+2023-05-19 10:21:57,769 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-19 10:22:44,049 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:22:44,087 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\LessonJpa\src\main\resources
+2023-05-19 10:22:44,092 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:22:44,093 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\LessonJpa\src\test\resources
+2023-05-19 10:22:44,718 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:22:44,719 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\QueryLesson\src\main\resources
+2023-05-19 10:22:44,722 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:22:44,723 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\QueryLesson\src\test\resources
+2023-05-19 10:22:54,436 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WeekProject_3:WeekProject_3:0.0.1-SNAPSHOT @ F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\pom.xml.
+2023-05-19 10:22:54,960 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WeekProject_3/src
+2023-05-19 10:22:54,964 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /WeekProject_3/src/test/java because it overlaps with /WeekProject_3/src
+2023-05-19 10:22:55,132 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-19 10:22:55,645 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WeekProject_3:WeekProject_3:0.0.1-SNAPSHOT @ F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\pom.xml.
+2023-05-19 10:22:55,768 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WeekProject_3/src
+2023-05-19 10:22:55,770 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /WeekProject_3/src/test/java because it overlaps with /WeekProject_3/src
+2023-05-19 10:22:55,836 [Worker-8: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-05-19 10:22:55,956 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:22:55,957 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\main\resources
+2023-05-19 10:22:55,962 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:22:55,963 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\test\resources
+2023-05-19 10:23:58,742 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WeekProject_3:WeekProject_3:0.0.1-SNAPSHOT @ F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\pom.xml.
+2023-05-19 10:23:58,960 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:23:58,961 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\main\resources
+2023-05-19 10:23:58,964 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:23:58,965 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\test\resources
+2023-05-19 10:24:22,459 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:24:22,460 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\main\resources
+2023-05-19 10:24:22,463 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:24:22,464 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\test\resources
+2023-05-19 10:24:44,866 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:24:44,867 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\main\resources
+2023-05-19 10:24:44,870 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:24:44,871 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\test\resources
+2023-05-19 10:25:47,687 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:25:47,687 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\main\resources
+2023-05-19 10:25:47,689 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 10:25:47,690 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Epicode\JAVA-UNIT\Back-end_JAVA\WeekProject_3\src\test\resources
