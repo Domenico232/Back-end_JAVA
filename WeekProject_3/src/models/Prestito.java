@@ -7,12 +7,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedQuery;
 
 @Entity
+@NamedQuery(name = "Prestito.findAll", query = "SELECT e FROM Prestito e")
 public class Prestito {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int isbn;
+    private int idPrestito;
     
     @ManyToOne
     private Utente utente;
@@ -25,26 +27,22 @@ public class Prestito {
     private LocalDate dataRestituzionePrevista;
     private LocalDate dataRestituzioneEffettiva;
     
-	public Prestito(int isbn, Utente utente, CatalogItem elementoPrestato, LocalDate dataInizioPrestito,
+	public Prestito(Utente utente, CatalogItem elementoPrestato, LocalDate dataInizioPrestito,
 			LocalDate dataRestituzionePrevista, LocalDate dataRestituzioneEffettiva) {
 		super();
-		this.isbn = isbn;
 		this.utente = utente;
 		this.elementoPrestato = elementoPrestato;
 		this.dataInizioPrestito = dataInizioPrestito;
 		this.dataRestituzionePrevista = dataRestituzionePrevista;
 		this.dataRestituzioneEffettiva = dataRestituzioneEffettiva;
 	}
-
+	@Override
+	public String toString() {
+		return "Prestito [idPrestito=" + idPrestito + ", utente=" + utente + ", elementoPrestato=" + elementoPrestato
+				+ ", dataInizioPrestito=" + dataInizioPrestito + ", dataRestituzionePrevista="
+				+ dataRestituzionePrevista + ", dataRestituzioneEffettiva=" + dataRestituzioneEffettiva + "]";
+	}
 	public Prestito() {
-		super();
-	}
-	public int getId() {
-		return isbn;
-	}
-
-	public void setId(int id) {
-		this.isbn = id;
 	}
 
 	public Utente getUtente() {
