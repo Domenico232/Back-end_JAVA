@@ -26,7 +26,7 @@ public class Utente {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	public Utente(String nome, String cognome, LocalDate dataNascita) {
 
 		this.nome = nome;
